@@ -1,0 +1,101 @@
+.header-container{
+    color: white;
+    font-weight: 900;
+    font-size: 100px;
+    padding: 70px;
+}
+
+.home-name{
+    font-size: 100px;
+}
+
+.header-links{
+    display: flex;
+    font-size: 30px;
+    column-gap: 50px;
+    list-style-type: none;
+    margin-top: -10px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    transition: text-shadow 0.3s, color 0.3s;
+}
+
+.home-page-link:hover, .home-page-link:focus{
+    text-shadow: 0px 0px 5px rgb(255, 0, 191);
+    color: black;
+}
+
+.exp-page-link:hover, .exp-page-link:focus{
+    text-shadow: 0px 0px 5px rgb(111, 0, 255);
+    color: black;
+}
+
+.proj-page-link:hover, .proj-page-link:focus{
+    text-shadow: 0px 0px 5px rgb(255, 0, 0);
+    color: black;
+}
+
+@media screen and (max-width: 800px){
+    .header-container{
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .home-name{
+        font-size: 90px;
+    }
+
+    .header-links{
+        column-gap: 40px;
+        font-size: 27px
+    }
+
+}
+
+@media screen and (max-width: 520px) {
+    .home-name{
+        font-size: 80px;
+    }
+
+    .header-links{
+        column-gap: 35px;
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .home-name{
+        font-size: 70px;
+    }
+
+    .header-links{
+        column-gap: 30px;
+        font-size: 21px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .home-name{
+        font-size: 60px;
+    }
+
+    .header-links{
+        column-gap: 25px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .home-name{
+        font-size: 50px;
+    }
+
+    .header-links{
+        column-gap: 20px;
+        font-size: 15px;
+    }
+}
