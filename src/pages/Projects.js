@@ -37,6 +37,15 @@ const Projects = () => {
         </p>
       </div>
 
+      <div className='project-section' onClick={() => window.open('https://trunglam7.github.io/login_sim_encryption/')}>
+        <div className='project-name'>Login Simulation with Salted MD5 Encryption</div>
+        <div className='project-tools'>Tools: HTML, CSS, Javascript</div>
+        <p>A simple login simulation that demonstrates how a salted MD5 encryption works on a password.
+          This simulation utilizes a blueimp-md5 node module to encrypt the password, along with a randomly generated
+          8 character salt.
+        </p>
+      </div>
+
       <div className='project-section' onClick={() => window.open('https://trunglam7.github.io/pokemon-app/')}>
         <div className='project-name'>Pokemon Pagination</div>
         <div className='project-tools'>Tools: HTML, CSS, Javascript, React.js</div>
